@@ -1,15 +1,11 @@
 .btn {
     display: inline-block;
     padding: 5px 20px;
-    background-color: #2F55D4;
+    background-color: #EA1E63;
     color: #fff;
     font-size: 17px;
     line-height: 30px;
     text-align: center;
-    border-radius: 5px;
     cursor: pointer;
-    box-shadow: 0 3px 6px #87a0f5;
+    box-shadow: 1px 1px 0px #B43978;
 }
-    .btn:hover {
-        background-color: #2443AC;
-    }
