@@ -10,13 +10,12 @@ body {
         background-image: url("../img/hero-background.png");
         background-size: cover;
         background-position: center;
-        
     }
         .hero > .container {
             display: inline-block;
             float: left;
             width: 500px;
-            margin-top: 30px;
+            margin: 40px 0 20px 0;
             margin-left: calc(50% - 285px);
             text-align: center;
         }
@@ -30,7 +29,7 @@ body {
                 padding: 20px 120px 0 120px;
                 text-transform: uppercase;
             }
-            .container > .paragraph {
+            .container > .paragraph-hero {
                 display: inline-block;
                 margin-top: 10px;
                 width: 100%;
@@ -97,44 +96,131 @@ body {
                 left: 100px;
             }
     .main {
-            height: 35%;
-            background-color: aquamarine;
-        }
+        display: inline-block;
+        float: left;
+        height: 35%;
+        width: 100%;
+        background-color: #fff;
+    }
         .main > .container {
-
+            display: inline-block;
+            float: left;
+            margin-left: calc(50% - 500px);
+            width: 1000px;
+            margin-top: 80px;
+            margin-bottom: 80px;
          }
+        .title {
+            display: inline-block;
+            float: left;
+            text-transform: uppercase;
+            font-weight: 400;
+            font-size: medium;
+            /* background-color: aqua; */
+        }
+        .paragraph {
+            display: inline-block;
+            float: left;
+            width: 95%;
+            padding: 30px 0 30px 0;
+            color: #B4BCD3;
+            font-size: small;
+            line-height: 1.6;
+            /* background-color: blue; */
+        }
             .container > .left {
-
+                display: inline-block;
+                float: left;
+                width: 45%;
+                height: 100%;
+                /* background-color: aquamarine; */
             }
-                .left > .title {
-
-                }
-                .left > .paragraph {
-
-                }
                 .left > .text-link {
-
+                    display: inline-block;
+                    float: left;
+                    color: #EA1E63;
                  }
                 .left > .progress-bar{
-
+                    display: inline-block;
+                    width: 100%;
+                    color: #B4BCD3;
+                    font-size: small;
+                    /* background-color: blueviolet; */
                 }
+                    .progress-bar > .name {
+                        display: inline-block;
+                        float: left;
+                        width: 50%;
+                    }
+                    .progress-bar > .value {
+                        display: inline-block;
+                        text-align: right;
+                        padding-right: 20px;
+                        width: 50%;
+                        /* background-color: #EA1E63; */
+                    }
+                    .progress-bar > .element {
+                        display: inline-block;
+                        float: left;
+                        width: 100%;
+                        margin: 10px 0 30px 0;
+                        border: 2px solid;
+                    }
             .container > .right {
-
+                display: inline-block;
+                float: right;
+                width: 45%;
+                /* background-color: #EA1E63; */
             }
-                .right > .title {
-
-                }
-                .right > .paragraph {
+                .paragraph {
+                    display: inline-block;
+                    float: left;
 
                 }
                 .right > .text-link {
+                    display: inline-block;
+                    float: right;
+                    background-color: #EA1E63;
 
                 }
                 .right > .form {
-
+                    display: inline-block;
+                    float: left;
+                    width: 100%;
+                    margin-top: 20px;
+                    /* background-color: aquamarine; */
                 }
-                .right > .btn {
+                    .form > .name {
+                        display: inline-block;
+                        float: left;
+                        padding-bottom: 5px;
+                        width: 45%;
+                        color: #B4BCD3;
+                        border-bottom: 1px solid #B4BCD3;
+                    }
+                    .form > .email {
+                        display: inline-block;
+                        float: left;
+                        margin-left: 10%;
+                        padding-bottom: 5px;
+                        width: 45%;
+                        color: #B4BCD3;
+                        border-bottom: 1px solid #B4BCD3;
+                    }
+                    .form > .message {
+                        display: inline-block;
+                        float: left;
+                        margin-top: 30px;
+                        padding-bottom: 40px;
+                        width: 100%;
+                        color: #B4BCD3;
+                        border-bottom: 1px solid #B4BCD3;
 
+                    }
+                .right > .btn {
+                    display: inline-block;
+                    float: right;
+                    margin-top: 100px;
                 }
     .footer {
         background-color: #03a9f4;
