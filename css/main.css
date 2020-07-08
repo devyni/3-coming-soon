@@ -198,6 +198,7 @@ body {
                         color: #B4BCD3;
                         border-bottom: 1px solid #B4BCD3;
                     }
+
                     .form > .email {
                         display: inline-block;
                         float: left;
@@ -215,7 +216,6 @@ body {
                         width: 100%;
                         color: #B4BCD3;
                         border-bottom: 1px solid #B4BCD3;
-
                     }
                 .right > .btn {
                     display: inline-block;
