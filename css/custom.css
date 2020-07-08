@@ -1,3 +1,37 @@
 .bg-blue {
     background-color: #03A9F5 ;
 }
+.container:first-child {
+    padding-bottom: 20px;
+    background-image: url(../img/banner.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+.narrow-row {
+    text-align: center;
+}
+    .logo {
+    height: 34px;
+    margin-bottom: 40px;
+    object-fit: contain;
+    object-position: center;
+
+     }
+    h1 {
+    margin-bottom: 20px;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+    }
+    .narrow-row > p {
+        margin-bottom: 10px;
+        color: #AEABB2;
+    }
+    .clock {
+        margin-bottom: 60px;
+    }
+    .narrow-row > .form {
+        margin-bottom: 10px;
+    }
